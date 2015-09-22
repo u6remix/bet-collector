@@ -231,6 +231,8 @@
 	<script src="../dist/js/sb-admin-2.js"></script>
 	
 	<script src="../js/dataTables.colVis.js"></script>
+	
+		<script src="../js/jquery.dataTables.columnFilter.js"></script>
 
 	<!-- Page-Level Demo Scripts - Tables - Use for reference -->
 	<script>
@@ -337,7 +339,7 @@
 					$(tfoot).find('th').eq(1).html("Total bets count is " + totalCalc + " W-L-V: " + win+"-"+lose+"-"+_void);
 				}
 
-			});
+			}).columnFilter();
 			
 		    // Add event listener for opening and closing details
 		    $('#dataTables-example tbody').on('click', 'td.details-control', function () {
