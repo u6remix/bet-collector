@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * The persistent class for the prediction database table.
- * 
+ * test
  */
 @Entity
 @Table(name="prediction")
