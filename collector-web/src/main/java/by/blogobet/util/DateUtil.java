@@ -13,4 +13,5 @@ public class DateUtil {
 		Date date = new Date(time2HourBefore);
 		return date;
 	}
+	//new in test
 }
